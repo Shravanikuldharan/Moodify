@@ -1,0 +1,24 @@
+.emoji-option {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  background-color: rgba(124, 58, 237, 0.1);
+  padding: 8px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 1px solid transparent;
+}
+
+.emoji-option:hover {
+  background-color: rgba(124, 58, 237, 0.2);
+  transform: scale(1.05);
+  border-color: #7c3aed;
+}
+
+.emoji-option.selected {
+  border-color: #7c3aed;
+  background-color: rgba(124, 58, 237, 0.40);
+  box-shadow: 0 2px 5px rgba(37, 99, 235, 0.2);
+}

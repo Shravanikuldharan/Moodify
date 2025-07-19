@@ -1,0 +1,33 @@
+.common-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  background: linear-gradient(135deg, #7c3aed, #a78bfa);
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 6px 16px rgba(124, 58, 237, 0.4);
+  transition: all 0.3s ease;
+  transform: translateY(0);
+}
+
+.common-btn:hover {
+  background: linear-gradient(135deg, #6d28d9, #7c3aed);
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.5);
+  transform: translateY(-2px);
+}
+
+.common-btn:active {
+  transform: translateY(2px);
+  box-shadow: 0 4px 10px rgba(109, 40, 217, 0.4);
+}
+
+.btn-icon {
+  width: 20px;
+  height: 20px;
+}

@@ -1,0 +1,18 @@
+.color-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.color-button:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 2px #94a3b8;
+}
+
+.color-button.selected {
+  box-shadow: 0 0 0 3px #7c3aed; 
+}
