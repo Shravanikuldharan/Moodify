@@ -6,7 +6,6 @@ import ImgRotate from '../assets/rotate.png';
 import ImgPulse from '../assets/pulse.png';
 import ImgReset from '../assets/reset.png';
 import CommonButton from '../Component/CommonButton/CommonButton'; 
-import Footer from "../Component/Footer/Footer";
 
 function Home() {
   const [emoji, setEmoji] = useState("🚀");
@@ -88,18 +87,17 @@ function Home() {
 
        <div className="color-picker">
           <ColorButton bgColor="#fef9a8" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#d1adf4ff" setBgColor={setBgColor} currentBg={bgColor} />
+          <ColorButton bgColor="#d1fae5" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#bfdbfe" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#fca5a5" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#6ee7b7" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#ddd6fe" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#fdba74" setBgColor={setBgColor} currentBg={bgColor} />
+          <ColorButton bgColor="#fce7f3" setBgColor={setBgColor} currentBg={bgColor} />
+          <ColorButton bgColor="#ffdada" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#7dd3fc" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#f9a8d4" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#e9d5ff" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#86efac" setBgColor={setBgColor} currentBg={bgColor} />
        </div>
-        <Footer />
       </div>
     </div>
 
