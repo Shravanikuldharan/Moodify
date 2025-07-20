@@ -89,21 +89,30 @@ function Home() {
           <EmojiButton emoji={"🌻"} setEmoji={setEmoji} currentEmoji={emoji}/>
           <EmojiButton emoji={"🏡"} setEmoji={setEmoji} currentEmoji={emoji}/>
           <EmojiButton emoji={"⭐"} setEmoji={setEmoji} currentEmoji={emoji}/>
-          <EmojiButton emoji={"📚"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"😍"} setEmoji={setEmoji} currentEmoji={emoji}/>  
+          <EmojiButton emoji={"🏆"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🛸"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🎈"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"📸"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🧁"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🪐"} setEmoji={setEmoji} currentEmoji={emoji}/>
         </div>
 
         <div className="color-picker">
-          <ColorButton bgColor="#fef9a8" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#d1fae5" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#bfdbfe" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#fca5a5" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#6ee7b7" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#fce7f3" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#ffdada" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#7dd3fc" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#f9a8d4" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#e9d5ff" setBgColor={setBgColor} currentBg={bgColor} />
-          <ColorButton bgColor="#86efac" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#fef9a8" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#d1fae5" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#bfdbfe" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#fca5a5" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#fce7f3" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#7dd3fc" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#e9d5ff" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#fdffb6" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#b9fbc0" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#a0c4ff" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#ffc6ff" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#d0f4de" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#ffdab9" setBgColor={setBgColor} currentBg={bgColor} />
+            <ColorButton bgColor="#cdeac0" setBgColor={setBgColor} currentBg={bgColor} />
         </div>
        
         </div>
