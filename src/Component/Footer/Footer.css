@@ -1,0 +1,26 @@
+.footer {
+  width: 100%;
+  padding: 16px 0;
+  background: radial-gradient(125% 125% at 50% 90%, #ffffff 40%, #7c3aed 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.06);
+  margin-top: auto;
+}
+
+.footer-content {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-content a {
+  color: #6b7280;
+  font-size: 24px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #7c3aed;
+  transform: scale(1.2);
+}

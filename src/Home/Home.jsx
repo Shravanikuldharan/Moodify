@@ -6,6 +6,9 @@ import ImgRotate from '../assets/rotate.png';
 import ImgPulse from '../assets/pulse.png';
 import ImgReset from '../assets/reset.png';
 import CommonButton from '../Component/CommonButton/CommonButton'; 
+import Footer from '../Component/Footer/Footer';
+import { Toaster, toast } from 'react-hot-toast';
+
 
 function Home() {
   const [emoji, setEmoji] = useState("🚀");
@@ -22,18 +25,21 @@ function Home() {
   setBgColor("#ffffff");
   setAngle(0);
   setIsPulsing(false);
+  toast.success ("All effects have been reset!");
 };
 
   return (
-    <div className="main-container">
+    <div className='page-wrapper'>
       <div className="gradient-bg"/>
-      <div className="content">
-        <h1 className='title'>
-          Vibe Selector <span className="highlight">Moodify</span>
-        </h1>
-        <p className="description">
-         Moodify – Mood Swings? Emoji Things!
-        </p>
+        <div className="main-container">
+          <div className="content">
+            <h1 className='title'>
+            Vibe Selector 
+              <span className="highlight">Moodify</span>
+            </h1>
+            <p className="description">
+            Moodify – Mood Swings? Emoji Things!
+            </p>
 
         <div className="emoji-display" 
           style={{ backgroundColor: bgColor }}>
@@ -71,21 +77,22 @@ function Home() {
             icon={ImgReset} 
             onClick={handleReset}
           />
+          <Toaster />
 
-      <div className="emoji-picker">
-         <EmojiButton emoji={"🚀"} setEmoji={setEmoji} currentEmoji={emoji}/>  
-         <EmojiButton emoji={"🦄"} setEmoji={setEmoji} currentEmoji={emoji} />
-         <EmojiButton emoji={"🌈"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"🍕"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"🎧"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"🔥"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"🌻"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"🏡"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"⭐"} setEmoji={setEmoji} currentEmoji={emoji}/>
-         <EmojiButton emoji={"📚"} setEmoji={setEmoji} currentEmoji={emoji}/>
-      </div>
+        <div className="emoji-picker">
+          <EmojiButton emoji={"🚀"} setEmoji={setEmoji} currentEmoji={emoji}/>  
+          <EmojiButton emoji={"🦄"} setEmoji={setEmoji} currentEmoji={emoji} />
+          <EmojiButton emoji={"🌈"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🍕"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🎧"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🔥"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🌻"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"🏡"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"⭐"} setEmoji={setEmoji} currentEmoji={emoji}/>
+          <EmojiButton emoji={"📚"} setEmoji={setEmoji} currentEmoji={emoji}/>
+        </div>
 
-       <div className="color-picker">
+        <div className="color-picker">
           <ColorButton bgColor="#fef9a8" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#d1fae5" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#bfdbfe" setBgColor={setBgColor} currentBg={bgColor} />
@@ -97,10 +104,12 @@ function Home() {
           <ColorButton bgColor="#f9a8d4" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#e9d5ff" setBgColor={setBgColor} currentBg={bgColor} />
           <ColorButton bgColor="#86efac" setBgColor={setBgColor} currentBg={bgColor} />
-       </div>
+        </div>
+       
+        </div>
+        <Footer />
       </div>
     </div>
-
   );
 }
 
