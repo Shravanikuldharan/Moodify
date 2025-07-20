@@ -34,7 +34,7 @@ function Home() {
         <div className="main-container">
           <div className="content">
             <h1 className='title'>
-            Vibe Selector 
+            Vibe Selector{" "}
               <span className="highlight">Moodify</span>
             </h1>
             <p className="description">
