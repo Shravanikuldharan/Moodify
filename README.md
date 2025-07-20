@@ -1,6 +1,6 @@
 # Moodify - The Emoji Editor 🎉
 
-[🌐Visit Moodify](https://moodify-emoji-editor.netlify.app)
+[🌐 Visit Moodify](https://moodify-emoji-editor.netlify.app)
 
 Moodify is a fun and interactive emoji playground built with React. Explore emoji switching, color backgrounds, and animated effects — all powered by the `useState` hook.
 
@@ -22,7 +22,6 @@ Moodify is a fun and interactive emoji playground built with React. Explore emoj
 - CSS Modules
 - React-hot-toast
 
+---
 
-
-## Contact
-Github📌: https://github.com/Shravanikuldharan/Moodify
+📌 Github - https://github.com/Shravanikuldharan/Moodify
