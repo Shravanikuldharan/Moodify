@@ -20,7 +20,7 @@ Moodify is a fun and interactive emoji playground built with React. Explore emoj
 
 - React (Hooks: `useState`)
 - CSS Modules
-- [react-hot-toast](https://github.com/timolins/react-hot-toast)
+- React-hot-toast
 
 
 
